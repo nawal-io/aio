@@ -1,8 +1,0 @@
-{
-  "name": "NAWAL AIO - Browser Native Suite",
-  "description": "Minimalist, high-performance Web App Hub & Launcher for zero-server, client-side developer utilities.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
-
-
