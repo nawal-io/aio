@@ -10,6 +10,8 @@
 ![Bun](https://img.shields.io/badge/Bun-1.x-black?style=flat-square&logo=bun)
 ![Privacy](https://img.shields.io/badge/Privacy-100%25_Client--Side-black?style=flat-square)
 
+![WIP](https://raw.githubusercontent.com/nawal-io/aio/main/assets/banneraio.png)
+
 ---
 
 ## 🛠️ Integrated Utility Applications
