@@ -1,47 +1,53 @@
-# ⚡ All-In-One (AIO) Developer Tools Suite
+# nawal.io — Central Web Utilities Hub
 
-A minimalist, high-performance ecosystem launcher and hub designed to unify client-side web applications into a single, cohesive developer portal.
+> **Privacy-First, 100% Client-Side Web Utilities Suite.**  
+> Zero server tracking, zero data collection, zero backend dependencies. All computations execute locally in your browser.
 
-![React](https://img.shields.io/badge/React-18.x-61DAFB?style=flat-square&logo=react)
-![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=flat-square&logo=typescript)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4-06B6D4?style=flat-square&logo=tailwindcss)
-![Vite](https://img.shields.io/badge/Vite-5.x-646CFF?style=flat-square&logo=vite)
-![Bun](https://img.shields.io/badge/Bun-1.x-fbf0df?style=flat-square&logo=bun)
-![Privacy](https://img.shields.io/badge/Privacy-100%25_Client--Side-emerald?style=flat-square)
-
----
-
-## 🌐 Integrated Applications
-
-This portal serves as the primary entry point for the following privacy-first, 100% browser-native utilities:
-
-- **📄 [PDF Toolkit](https://nawal-io.github.io/pdf/)**: Local PDF compression, merging, splitting, and page management.
-- **📸 [SnapStrip Photobooth](https://nawal-io.github.io/photobooth/)**: Client-side photo strip generator with custom filters and canvas rendering.
-- **🎙️ [Screen Recorder](https://nawal-io.github.io/recorder/)**: Zero-server browser screen and audio capture.
-- **🧮 [Electronic Calculator](https://nawal-io.github.io/kalkulator-elektronik/)**: Modern scientific and electronic calculation suite.
+![React 19](https://img.shields.io/badge/React-19.x-black?style=flat-square&logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.x-black?style=flat-square&logo=typescript)
+![Tailwind CSS v4](https://img.shields.io/badge/Tailwind_CSS-v4-black?style=flat-square&logo=tailwindcss)
+![Vite](https://img.shields.io/badge/Vite-5.x-black?style=flat-square&logo=vite)
+![Bun](https://img.shields.io/badge/Bun-1.x-black?style=flat-square&logo=bun)
+![Privacy](https://img.shields.io/badge/Privacy-100%25_Client--Side-black?style=flat-square)
 
 ---
 
-## ✨ Design Philosophy & Architecture
+## 🛠️ Integrated Utility Applications
 
-- **Linear/Vercel Aesthetic**: Geometric borders (`zinc-800`), dark canvas (`zinc-950`), crisp typography, and subtle hover interactions.
-- **Zero Server Overhead**: 100% client-side execution using modern Web APIs (`Canvas`, `MediaStream`, `WebAssembly`).
-- **High Performance**: Built with Vite and Bun for lightning-fast build and load times.
+Central directory listing all active sub-modules under the `nawal-io` ecosystem:
+
+| Utility | Description | Tech Specs |
+| :--- | :--- | :--- |
+| **[`qr`](/qr)** | Multi-Format Privacy QR Studio | Canvas API, vCard 3.0, SVG Export |
+| **[`speed`](/speed)** | Real Bandwidth & Telemetry Diagnostic | Cloudflare Edge Engine, `ReadableStream` |
+| **[`suriz`](/suriz)** | 3-Step Wizard Surat Izin Maker | Dynamic Template, PDF/Print Engine |
+| **[`cv`](/cv)** | ATS-Friendly Resume & CV Builder | Real-time Canvas/PDF Print Renderer |
+| **[`pdf`](/pdf)** | Local PDF Manipulation Toolkit | `pdf-lib`, WebWorker, Zero Uploads |
+| **[`media`](/media)** | Client-Side Audio/Video Editor | WebCodecs, FFmpeg.wasm, Media Recorder |
+| **[`mosaic`](/mosaic)** | Photomosaic & Photo Strip Generator | HTML5 Canvas API, Custom WebGL Filters |
+| **[`glitch`](/glitch)** | Image Destruction & Processing Studio | Direct Pixel Buffer Manipulation |
+| **[`recorder`](/recorder)** | Screen & Floating Webcam Capture | `MediaStream` API, WebM Converter |
+| **[`photobooth`](/photobooth)** | Photostrip Layout & Print Studio | Camera Stream, Strip Compositing |
+| **[`kalkulator-elektronik`](/kalkulator-elektronik)** | Circuit Analysis & Component Calculator | Custom Formula Evaluation Engine |
 
 ---
 
-## 🛠️ Tech Stack
+## 📐 Architecture & Design Principles
 
-- **Framework**: React + TypeScript
-- **Styling**: Tailwind CSS (v4)
-- **Icons**: Lucide React
-- **Runtime / Package Manager**: Bun
+* **Swiss Editorial / Studio Industrial**: High-contrast monochrome aesthetic (`#0a0a0c`), crisp typography, explicit grid borders (`#26262a`), and zero AI visual clutter (no purple glows, floating shadows, or decorative pills).
+* **Zero Server Overhead**: 100% client-side execution via native browser APIs (`Canvas`, `MediaStream`, `WebAudio`, `ReadableStream`).
+* **Ultra-Fast Local Pipeline**: Powered by Vite and Bun for instant build times and lightweight bundles deployed to GitHub Pages.
 
 ---
 
 ## 🚀 Local Development
 
-1. **Clone the repository**:
-   ```bash
-   git clone [https://github.com/nawal-io/aio.git](https://github.com/nawal-io/aio.git)
-   cd aio
+```bash
+# Clone repository
+git clone [https://github.com/nawal-io/nawal-io.github.io.git](https://github.com/nawal-io/nawal-io.github.io.git)
+
+# Install dependencies
+bun install
+
+# Start local dev server
+bun dev
