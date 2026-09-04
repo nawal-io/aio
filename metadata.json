@@ -1,0 +1,6 @@
+{
+  "name": "nawal.io",
+  "description": "AIO Central Hub for Privacy-First Client-Side Web Tools",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
